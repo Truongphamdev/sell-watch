@@ -1,0 +1,124 @@
+.blog1-news__text {
+	margin: 0 150px;
+}
+.blog1-news__text h2 {
+	font-size: 38px;
+	font-weight: 400;
+}
+.blog1-news__text p {
+	color: #777;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.blog1-news__img--second {
+	display: flex;
+}
+.blog1-news__img--second img {
+	width: 530px;
+	height: auto;
+	margin: 20px 40px 40px 0;
+}
+.blog1-img__main {
+	width: 1100px;
+	height: 500px;
+	margin: 10px 0 40px;
+}
+.blog-news__brand {
+	background-color: #dd333326;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.blog-news__brand h5 {
+	padding-top: 120px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 27px;
+	font-weight: 300;
+}
+.blog-news__brand h6 {
+	padding-bottom: 70px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.blog1-news__text ul {
+	font-size: 40px;
+	padding: 0;
+	font-weight: 400;
+}
+.blog1-news__text li {
+	font-size: 18px;
+	margin: 10px 0;
+	color: #777;
+}
+.blog1-news__list {
+	margin-bottom: 40px;
+}
+.blog1-news__button {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.blog1-news__button button {
+	border-radius: 5px;
+	margin-right: 6px;
+	border-color: #ccc;
+	transition: all 0.5s;
+	background-color: #fff;
+}
+.blog1-news__button span {
+	padding:6px;
+	color: #777;
+	transition: all 1s;
+}
+.blog1-news__button button:hover {
+	background-color: #DD3333;
+	border: none;
+}
+.blog1-news__button button:hover span {
+	color: #fff;
+}
+.blog1-news__report {
+	margin: 10px 0 40px;
+}
+.blog1-news__report p {
+	margin: 0;
+	font-size: 26px;
+	color: #212121;
+}
+.blog1-news__report span {
+	color: #777;
+}
+.blog1-news__input p {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #212121;
+}
+.blog1-news__input--second {
+	display: flex;
+	margin: 30px 0;
+}
+.blog1-news__input--second div {
+	margin-right: 30px;
+}
+.blog1-news__input--second input {
+	width: 354px;
+	height: 40px;
+}
+.blog1-news__footerbtn {
+	margin-top: 80px;
+}
+.blog1-news__footerbtn button {
+	background-color: #DD3333;
+	transition: all 0.5s;
+	border: none;
+	border-radius: 2px;
+}
+.blog1-news__footerbtn button:hover {
+	background-color: #212121;
+}
+.blog1-news__footerbtn p {
+	padding: 10px 30px;
+	font-size: 13px;
+	margin: 0;
+	color: #fff;
+}

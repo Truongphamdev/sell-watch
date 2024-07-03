@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	<link rel="stylesheet" href="./blog1.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	 rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	 crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body>
+	<div class="menu">
+		<nav class="navbar navbar-expand-sm bg-light fixed-top">
+			<div class="container-fluid">
+				
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="" class="nav-link">
+						<img class="rounded logo-img" src="./img/10-logo-thuong-hieu-dong-ho-7.jpg" alt="">
+					</a>
+				</li>
+					<li class="tag menu-nav-item nav-item  "><a href="" class="nav-link "><span class="active tabheader trangchu">TRANG CHỦ</span></a></li>
+					<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader gioithieu">GIỚI THIỆU</span></a></li>
+					<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader cuahang">CỦA HÀNG</span></a></li>
+					<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader tintuc">TIN TỨC</span></a></li>
+					<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader lienhe">LIÊN HỆ</span></a></li>
+					<li class="tag menu-nav-item nav-item">
+						<div class="menu-icon">		
+							<a class="menu-icon__item nav-link ">
+								<i class="fas fa-search color-icon menu-search-icon"></i>
+							</a>
+							<a class="menu-icon__item nav-link">
+								<i class="fas fa-user color-icon menu-login-icon"></i>
+							</a>
+							<a class="menu-icon__item nav-link">
+								<i class="fas fa-shopping-cart color-icon menu-cart-icon"></i>
+								<span class="badge bg-danger badge-cart">0</span>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="search " data-aos="fade-down"  data-aos-duration="6000" data-aos-easing="ease-in-out">
+	<i class="fas fa-times search-close"></i>
+	<div class="search-main">
+		<input type="search" class="search-input" placeholder="Tìm Kiếm Sản Phẩm">
+		<i  class="fas fa-search search-icon"></i>
+	</div>
+</div>
+<!-- cart -->
+<div class="menu-cart ">
+	<div>
+		<span class="menu-cart__header">GIỎ HÀNG</span>
+		<span class="menu-cart__number">0</span>
+		<i class="fas fa-times menu-cart__close"></i>
+	</div>
+	<hr>
+	<div class="menu-cart__empty">
+		<img class="menu-cart__img" src="./img/istockphoto-1252349592-2048x2048.jpg" alt="">
+		<h4 style="font-size: 20px;">Chưa có sản phẩm nào trong giỏ hàng</h4>
+	</div>
+</div>
+<!-- login -->
+<div class="login-main">
+<form action="/action_page.php" class="was-validated">
+	<div style="display: flex;">
+		<h1>LOGIN</h1>
+		<i class="fas fa-times login__close"></i>
+	</div>
+		<div class="login-close">
+			<div class="mb-3 mt-3">
+		</div>
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+		<input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+		<label class="form-check-label" for="myCheck">I agree on blabla.</label>
+		<div class="valid-feedback">Valid.</div>
+		<div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+	<button type="submit" class="btn btn-danger">LOGIN</button>
+	<div class="login-menber" style="margin-top: 10px;">Not a menber? <span class="logout-register">Register</span></div>
+  </form>
+</div>
+<!-- register -->
+<div class="register-main" >
+	<div class="login-main__header">
+		<h1 class="login-header">REGISTER</h1>
+		<i class="fas fa-times register__close"></i>
+	</div>
+	<div>
+		<input class="login-input" type="email" placeholder="Email address">
+	</div>
+	<h5 class="register-text">A password will be sent to your email address.</h5>
+	<button class="login-button"><span class="login-button__text">REGISTER</span></button>
+	<div class="login-menber">Already a member?	<span class="login-register">Login</span></div>
+</div>
+<div class="blog1-news" style="margin: 200px 50px;">
+	<img class="blog1-news__img" src="./img/m8_blog_img_02.jpg" alt="" srcset="">
+	<div class="blog1-news__text">
+	<p style="margin: 20px 0; font-size: 14px;">WATCHES</p>
+	<h2>A. Lange & Söhne – The new Zeitwerk</h2>
+	<hr style="color: #777777;">
+	<div class="info-main__blog--user">
+		<i class="far fa-user-circle"></i>
+		<span>monamedia - 30 Tháng Mười, 2022 - 
+			Collection, Fashion, Lifestyle, Tin tức, Trends</span>
+	</div>
+	<hr style="color: #777777;">
+	<p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez from expanding her property collection. Lopez has reportedly added 
+		to her real estate holdings an eight-plus acre estate in Bel-Air anchored by 
+		a multi-level mansion.</p>
+		<p>The property, complete with a 30-seat screening room, a 100-seat amphitheater and a swimming pond with sandy beach and outdoor shower, was asking about $40 million, but J. Lo managed to make it hers for $28 million. As the Bronx native 
+			acquires a new home in California, she is trying to sell a gated compound.</p>
+	<p>Black farmers in the US’s South— faced with continued failure their efforts to run successful farms their launched a lawsuit claiming that “white racism” is to blame for their 
+		inability to the produce crop yields and on equivalent to that switched seeds.</p>
+	<h2 style="margin-bottom: 40px;">What Will Be The Next Step to Complete?</h2>
+	<p>The “new ’20s” idea might not work—there were a lot more young people in the United States then than now; a reprise of the world-changing inventions and discoveries of the 1920s would be a big surprise to those economists who believe that we have been in an invention dry spell since the 1970s. In his Businessweek piece, Peter Coy largely agrees,
+		 writing, “In all probability … the U.S. will continue to wrestle with ‘secular</p>
+	<div class="blog1-news__img--second">
+		<img src="./img/blog-red-pattern.jpg" alt="">
+		<img src="./img/orange-shape-1024x577.png" alt="">
+	</div>
+	<img class="blog1-img__main" src="./img/violet-color.jpg" alt="" srcset="">
+	<p>Anyway, let’s get to that fun. A very joyful book to read about the decade is Frederick Lewis Allen’s Only Yesterday: An Informal History of the 1920s, which Allen—a blueblood journalist and editor at Harper’s—published in 1931. The book chronicles
+		 all of the movement and motion that makes the decade sexy, and doesn’t seem to miss a fad.</p>
+	<p>
+		The property, complete with a 30-seat screening room, a 100-seat amphitheater and a swimming pond with sandy beach and outdoor shower, was asking about $40 million, but J. Lo managed to make it hers for $28 million. As
+		 the Bronx native acquires a new home in California, she is trying to sell a gated compound.
+	</p>
+	<div class="blog-news__brand">
+		<h5>A designer knows he has achieved perfection not when
+			 there is nothing left to add, but when there is nothing left to take away.</h5>
+			 <h6>-NOVAWORKS</h6>
+	</div>
+	<p>Allen is also really good at describing parties—or, at least, the ones the middle class and upper class attended. The historian wrote about how women taking up smoking had “strewed the dinner table with their 
+		ashes, snatched a puff between the acts, invaded the masculine sanctity of the club car.</p>
+	<div class="blog1-news__list">
+		<ul>Popular In Human Interest:</ul>
+		<li>Parents Are Fed Up With Their Kids’ Expensive Berry Habits</li>
+		<li>15 Mother’s Day Gifts for the Burned-Out Mom in Your Life</li>
+		<li>Really Though, What Jeans Are in Style Now?</li>
+		<li>Don’t Fall for Fertility Fearmongering About Trans Men</li>
+	</div>
+	<p>Perhaps by remembering the twenties merely as an enchanting series of novelties or the crude afterthought of a simpler past, we preserve the illusion of our own simple innocence,” mused historian Paula Fass in the 
+		introduction to her book The Damned and the Beautiful: American Youth in the 1920s.</p>
+		<div class="blog1-news__button">
+			<button><span>Blog</span></button>
+			<button><span>Creative</span></button>
+			<button><span>Fashion</span></button>
+			<button><span>Lifestyle</span></button>
+		</div>
+		<div class="blog1-news__report">
+		<p>Trả lời</p>
+			<span>Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu *</span>
+		</div>
+		<div class="blog1-news__input">
+			<div>
+				<p>Bình luận *</p>
+				<textarea name="" rows="10" cols="150" id=""></textarea>
+			</div>
+			<div class="blog1-news__input--second">
+				<div>
+					<p>Tên *</p>
+					<input type="text">
+				</div>
+				<div>
+					<p>Email *</p>
+					<input type="email" name="" id="">
+				</div>
+				<div>
+					<p>Trang web</p>
+					<input type="text" name="" id="">
+				</div>
+			</div>
+		</div>
+		<div>
+			<input  type="checkbox"> <span style="color: #777777;">Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của tôi.</span>
+		</div>
+		<div class="blog1-news__footerbtn">
+			<button ><p>PHẢN HỒI</p></button>				
+		</div>
+		
+	</div>
+</div>
+	<div class="footer" >
+		<div class="footer-info">
+			<div class="footer-link">
+				<h1 class="footer-header">LIÊN KẾT</h1>
+				<a href=""><h5 class="footer-content">TRANG CHỦ</h5></a>
+				<a href=""><h5 class="footer-content">GIỚI THIỆU</h5></a>
+				<a href=""><h5 class="footer-content">CỬA HẢNG</h5></a>
+				<a href=""><h5 class="footer-content">TIN TỨC</h5></a>
+				<a href=""><h5 class="footer-content">LIÊN HỆ</h5></a>
+			</div>
+			<div class="footer-category">
+				<h1 class="footer-header">DANH MỤC</h1>
+				<a href=""><h5 class="footer-content">DANH MỤC SẢN PHẨM</h5></a>
+				<a href=""><h5 class="footer-content">DANH MỤC TIN TỨC</h5></a>
+				<a href=""><h5 class="footer-content">CHÍNH SÁCH HOÀN TRẢ</h5></a>
+				<a href=""><h5 class="footer-content">FAQ</h5></a>
+			</div>
+			<div class="footer-policy">
+				<h1 class="footer-header">CHÍNH SÁCH</h1>
+				<a href="">
+					<h5 class="footer-content">CHÍNH SÁCH MUA HÀNG</h5>
+				</a><a href="">
+					<h5 class="footer-content">CHÍNH SÁCH HOÀN TRẢ</h5>
+				</a><a href="">
+					<h5 class="footer-content">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</h5>
+				</a><a href="">
+					<h5 class="footer-content">CHÍNH SÁCH BẢO MẬT</h5>
+				</a>
+			</div>
+			<div class="footer-sup">
+				<h1 class="footer-header">HỖ TRỢ</h1>
+				<a href="">
+					<h5 class="footer-content">FAQ</h5>
+				</a><a href="">
+					<h5 class="footer-content">VẬN CHUYỂN</h5>
+				</a><a href="">
+					<h5 class="footer-content">TÀI KHOẢN</h5>
+				</a><a href="">
+					<h5 class="footer-content">TUYỂN DỤNG</h5>
+				</a><a href="">
+					<h5 class="footer-content">TẠP CHÍ</h5>
+				</a>
+			</div>
+		</div>
+		<div class="footer-email">
+			<h1 class="footer-header footer-header__email">NHẬN TẤT CẢ CÁC TIN TỨC MỚI NHẤT.</h1>
+			<input class="footer-input" type="email" placeholder="Nhập email..."><span class=" footer-email__reg" >Đăng Ký</span>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" 
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+	AOS.init();	
+  </script>
+  <script src="main.js"></script>
+</html>

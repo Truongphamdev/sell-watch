@@ -1,0 +1,52 @@
+.checkout {
+	margin-top: 150px;
+}
+.checkout-header {
+	text-align: center;
+}
+.checkout-header i {
+	font-size: 100px;
+	color: rgb(49, 6, 27);
+}
+.checkout-header p {
+	color: #777;
+}
+.return {
+	margin-left: 50px;
+	font-size: 22px;
+}
+.return:hover {
+	cursor: pointer;
+	color: red;
+}
+.checkout-main {
+margin-left: 35%;
+}
+.input {
+	border-radius: 5px;
+	border:  1px solid #777;
+	width: 500px;
+	height: 40px;
+	background-color: #eeeeee;
+}
+.checkout-main p {
+	margin: 10px;
+	margin-left: 0;
+	color: #888;
+	font-size: 18px;
+}
+.checkout hr {
+	margin-right: 480px;
+}
+.checkout button {
+	padding: 10px 220px;
+	border: none;
+	border-radius: 5px;
+	background-color: #DD3333;
+	transition: all 0.5s;
+}
+.checkout button:hover {
+	cursor: pointer;
+	background-color: #111;
+	color: #fff;
+}
