@@ -362,7 +362,7 @@ buyButtons.forEach(button => {
 		const productInfo = document.querySelector('.product-info');
 		if (product && productInfo) {
 			productInfo.innerHTML = `
-			<div>
+			<div class="main-js">
 			<p class="cart-js-reload">Quay lại đầu trang</p>
 <div class="cart-js">
 	<img class="js-img" src="${product.img}" alt="">
@@ -419,7 +419,7 @@ buyButtons.forEach(button => {
 </div>
 <div style="margin-top: 120px;">
 	<h2 style="margin-left: 60px;">SẢN PHẨM TƯƠNG TỰ</h2>
-				<div class="main-carts">
+				<div class="main-carts" style="margin-left:60px">
 				<div class="menu-carts watch-main__product" >
 					<div class="menu-carts__lable"><p>NEW!</p></div>
 					<div class="sale-price"><span>10%</span></div>
@@ -757,4 +757,33 @@ wishListClose.onclick = function() {
 // load lại trang
 function reload() {
 	location.reload()
+}
+// xử lý onclick vào navigation
+let navigation = document.querySelector('.navigation')
+let menuNav = document.querySelector('.menu-nav')
+navigation.onclick = function() {
+	if (menuNav.style.display == "none") {
+		menuNav.style.display = "block"
+	}
+	else{
+		menuNav.style.display = "none"
+	}
+}
+
+// xử lý option
+let optionIcon = document.querySelector('.option-icon')
+let option = document.querySelector('.option-containeer')
+let MainWatch = document.querySelector('#main-cart')
+let cartTitle = document.querySelector('.cart-mains__title')
+optionIcon.onclick = function() {
+	if (option.style.display == "none") {
+		option.style.display = "block"
+		cartTitle.style.display = 'none'
+		MainWatch.style.display = 'none'
+	}
+	else{
+		option.style.display = "none"
+		cartTitle.style.display = 'block'
+		MainWatch.style.display = 'block'
+	}
 }

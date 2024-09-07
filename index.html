@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reponsive.css">
 	<link rel="stylesheet" href="./checkout.css">
 	<link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
@@ -19,40 +20,41 @@
 <body>
 	<!-- navbar -->
 	<div class="menu">
-	<nav class="navbar navbar-expand-sm bg-light fixed-top">
-		<div class="container-fluid">
-			
+	<nav class="navbar navbar-menu navbar-expand-sm bg-light fixed-top">
+
+			<a href="" class="nav-link">
+				<img class="rounded logo-img" src="./img/10-logo-thuong-hieu-dong-ho-7.jpg" alt="">
+			</a>
+			<div class="menu-nav">
 		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a href="" class="nav-link">
-					<img class="rounded logo-img" src="./img/10-logo-thuong-hieu-dong-ho-7.jpg" alt="">
-				</a>
-			</li>
+
 				<li class="tag menu-nav-item nav-item  "><a href="" class="nav-link "><span class="active tabheader trangchu">TRANG CHỦ</span></a></li>
 				<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader gioithieu">GIỚI THIỆU</span></a></li>
 				<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader cuahang">CỦA HÀNG</span></a></li>
 				<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader tintuc">TIN TỨC</span></a></li>
 				<li class="tag menu-nav-item nav-item "><a href="#" class="nav-link"><span class=" tabheader lienhe">LIÊN HỆ</span></a></li>
-				<li class="tag menu-nav-item nav-item">
-					<div class="menu-icon">		
-						<a class="menu-icon__item nav-link ">
-							<i class="fas fa-search color-icon menu-search-icon"></i>
-						</a>
-						<a class="menu-icon__item nav-link">
-							<i class="fas fa-user color-icon menu-login-icon"></i>
-						</a>
-						<a class="menu-icon__item nav-link" >
-							<i class="fas fa-list-alt color-icon menu-wistlist-icon"></i>
-						</a>
-						<a class="menu-icon__item nav-link">
-							<i class="fas fa-shopping-cart color-icon menu-cart-icon"></i>
-							<span class="badge bg-danger badge-cart">0</span>
-						</a>
-					</div>
-				</li>
-			</ul>
+			</ul>	
 		</div>
-	</nav>
+		<div class="menu-icon">		
+				<a class="menu-icon__item nav-link ">
+					<i class="fas fa-search color-icon menu-search-icon"></i>
+				</a>
+				<a class="menu-icon__item nav-link">
+					<i class="fas fa-user color-icon menu-login-icon"></i>
+				</a>
+				<a class="menu-icon__item nav-link" >
+					<i class="fas fa-list-alt color-icon menu-wistlist-icon"></i>
+				</a>
+				<a class="menu-icon__item nav-link">
+					<i class="fas fa-shopping-cart color-icon menu-cart-icon"></i>
+					<span class="badge bg-danger badge-cart">0</span>
+				</a>
+				<div class="navigation">
+					<i class="fas fa-bars"></i>
+				</div>
+			</div>
+
+		</nav>
 </div>
 	<div class="page-main  main-active menus" id="page-main" >
 <!-- slider -->
@@ -68,7 +70,7 @@
 	<!-- The slideshow/carousel -->
 	<div class="carousel-inner">
 	  <div class="carousel-item active">
-		<img src="./img/2332802-3840x2160-desktop-4k-watches-background-scaled.jpg" alt="Los Angeles" class="d-block" style="width:100% ; height: 720px;">
+		<img src="./img/2332802-3840x2160-desktop-4k-watches-background-scaled.jpg" alt="Los Angeles" class="d-block slider-img">
 		<div class="carousel-caption caption-text">
 		  <h3 class="caption-text__header">Bộ Sưu Tập Mới</h3>
 		  <h2 class="caption-text__content">ĐỒNG HỒ DÂY DA</h2>
@@ -76,7 +78,7 @@
 		</div>
 	  </div>
 	  <div class="carousel-item">
-		<img src="./img/pexels-lech-pierchala-818947460-19525734.jpg" alt="Chicago" class="d-block" style="width:100% ;height: 720px">
+		<img src="./img/pexels-lech-pierchala-818947460-19525734.jpg" alt="Chicago" class="d-block slider-img">
 		<div class="carousel-caption caption-text">
 		  <h3 class="caption-text__header">Bộ Sưu Tập Mới</h3>
 		  <h2 class="caption-text__content">ĐỒNG HỒ DÂY DA</h2>
@@ -84,7 +86,7 @@
 		</div> 
 	  </div>
 	  <div class="carousel-item">
-		<img src="./img/wp12480347-1-scaled.jpg" alt="New York" class="d-block" style="width:100% ;height: 720px">
+		<img src="./img/wp12480347-1-scaled.jpg" alt="New York" class="d-block slider-img">
 		<div class="carousel-caption caption-text">
 		  <h3 class="caption-text__header">Bộ Sưu Tập Mới</h3>
 		  <h2 class="caption-text__content">ĐỒNG HỒ DÂY DA</h2>
@@ -102,7 +104,7 @@
 	</button>
   </div>
 <!-- body-content -->
-<div class="container-fluid">
+<div class="container-fluid containeer">
 	<div data-aos="fade-up" data-aos-duration="2000">
 	<div class="popular-content ">
 		<h1 class="popular-content__header">PHỔ BIẾN</h1>
@@ -117,11 +119,11 @@
 	</div>
 </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid ">
 	<div class="body-img" data-aos="zoom-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
 		<div class="body-img-box">
 			<img class="body-img__main" src="./img/analog-watch-1869928_1280.jpg" alt="">
-			<button class="btn-body__img">MEN</button>
+			<button class="btn-body__img btn_men">MEN</button>
 		</div>
 		<div class="body-img-box">
 				<img class="body-img__main" src="./img/pexels-lech-pierchala-818947460-19525734.jpg" alt="">
@@ -326,7 +328,7 @@
 	</div>
 	</div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid ">
 	<div class="sell">
 		<div class="sell-text" data-aos="fade-up"  data-aos-duration="2000" data-aos-easing="ease-in-out">
 			<i class="sell-text__header">Giảm giá tới 35%</i>
@@ -335,7 +337,7 @@
 			<button type="button" class="sell-btn">MUA NGAY</button>
 		</div>
 		<div >
-			<img class="sell-img" data-aos="fade-left"  data-aos-duration="2000" data-aos-easing="ease-in-out" src="./img/71CXO5AegEL._AC_UY1000_.jpg" alt="">
+			<img class="sell-img" data-aos="fade-right"  data-aos-duration="2000" data-aos-easing="ease-in-out" src="./img/71CXO5AegEL._AC_UY1000_.jpg" alt="">
 		</div>
 	</div>
 </div>
@@ -350,7 +352,7 @@
 		</div>
 	</div>
 		<div class="cart-main23">
-			<div class="cart-main2" data-aos="fade-left"  data-aos-duration="2000" data-aos-easing="ease-in-out">
+			<div class="cart-main2" data-aos="fade-right"  data-aos-duration="2000" data-aos-easing="ease-in-out">
 			<img class="cart-main__img2" src="./img/7133MExuUOL._AC_UY900_123.jpg" alt="">
 			<div class="cart-text2">
 				<h1 class="cart-text__header">ĐỒNG HỒ</h1>
@@ -358,7 +360,7 @@
 					<button class="cart-text__btn" type="button"><span class="cart-text__des">MUA NGAY</span></button>
 			</div>
 		</div>
-		<div class="cart-main3" data-aos="fade-up-left"  data-aos-duration="2000" data-aos-easing="ease-in-out">
+		<div class="cart-main3" data-aos="fade-up-right"  data-aos-duration="2000" data-aos-easing="ease-in-out">
 			<img class="cart-main__img3" src="./img/watch-gt-series-brand-card-1123.jpeg" alt="">
 			<div class="cart-text3">
 				<h1 class="cart-text__header">ĐỒNG HỒ</h1>
@@ -889,11 +891,12 @@
 <div class="cart">
 	<div class="cart-mains unshow menus" id="cart-mains" >
 		<div class="cart-mains__header">
+			<i class="fas fa-tasks option-icon"></i>
 			<p>HOME > CỦA HÀNG</p>
 			<h1>CỬA HÀNG</h1>
 		</div>
 		<div class="cart-mains__options">
-			<div>
+			<div class="option-containeer">
 				<div>
 					<h2  data-bs-toggle="collapse" data-bs-target="#option">DANH MỤC<i class="fas fa-angle-down"></i></h2>
 				</div>
@@ -913,7 +916,7 @@
 					<h3><i class="fas fa-angle-right"></i>SALE <span>(7)</span></h3>
 					<h3><i class="fas fa-angle-right"></i>SẢN PHẨM HOT <span>(3)</span></h3>
 				</div>
-				<hr style="margin: 50px 0; margin-bottom: 20px;">
+				<hr class="hr-option" style="margin: 50px 0; margin-bottom: 20px;">
 				<div class="cart-mains__filter">
 					<h2 data-bs-toggle="collapse" data-bs-target="#filter">LỌC GIÁ <i class="fas fa-angle-down"></i></h2>
 					<div id="filter" class="collapse show cart-mains__filter--body">
@@ -969,6 +972,7 @@
 					</div>
 				</div>
 				<hr class="cart-mains__hr" width="500px">
+				<div id="main-cart">
 				<div class="main-carts">
 				<div class="menu-carts watch-main__product" >
 					<div class="menu-carts__lable"><p>NEW!</p><i class="fas fa-plus"></i></div>
@@ -1319,6 +1323,8 @@
 					</div>
 				</div>						
 			</div>
+								
+		</div>
 			</div>		
 		</div>
 	</div>
@@ -1454,7 +1460,7 @@
 				<button type="button"><a href="blog6.html">Đọc Thêm</a></button>
 			</div>
 		</div>
-		<hr width="900px" style="margin-left: 120px;">	
+		<hr class="hr-info" width="900px" style="margin-left: 120px;">	
 		<div class="blog-last">
 			<span><i class="fas fa-angle-left"></i> BÀI VIẾT CŨ HƠN</span>			
 		</div>
@@ -1589,7 +1595,7 @@
 					<input type="text" placeholder="Chủ đề*">
 				</div>
 				<div>
-					<textarea name="" rows="10" cols="115" placeholder="Nội dung" id=""></textarea>
+					<textarea name="" rows="10" cols="45" placeholder="Nội dung" id=""></textarea>
 				</div>
 				<div>
 					<button type="button">Gửi Thông Tin</button>
